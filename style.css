@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.all-content
+{
+    font-family: "Protest Revolution", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #000000;
+    color: rgb(216, 207, 207);
+}
+
+.container
+{
+    width: 40%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+}
+
+.header
+{
+    background-color: #ff6b6b;
+    text-align: center;
+    border-radius: 2px;
+    border-bottom: #d90b5c solid 4px;
+    color: #000000;
+}
+
+.header-content
+{
+    padding: 10px 80px;
+}
+
+
+.box-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.box{
+    background-color: #1c252e;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #d90b5c solid 1px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.box:hover
+{
+    background-color: #213140;
+    transform: scale(1.03);
+    font-size: 50px;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.btn{
+    background-color: #e20057;
+    text-align: center;
+    border-radius: 1px;
+    padding: 10px 80px;
+    color: rgb(216, 207, 207);
+    font-size: larger;
+    font-family: "Protest Revolution", sans-serif;
+    border: none;
+}
+
+.btn:hover
+{
+    background-color: #1c252e;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}
+
